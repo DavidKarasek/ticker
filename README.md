@@ -24,6 +24,8 @@ Next, install dependencies.
 
 `pip install -r requirements.txt`
 
+Now create a file named `.env` and it's only contents need to be `SECRET="secret!"` You could assign any value you like actually.
+
 To run the server,
 
 `python3 server.py`
