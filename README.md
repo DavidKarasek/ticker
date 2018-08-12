@@ -1,6 +1,6 @@
 This program runs a server that listens to two different crypto exchanges websockets and displays the data in real time on a basic webpage.
 
-#How to run
+# How to run
 
 Clone the project.
 
@@ -34,7 +34,7 @@ Now the page will be hosted at `localhost:5000`
 
 If everything went as planned, once you navigate to `localhost:5000` you will see a basic page which will start blank. But after a few seconds should begin populating data in real time. 
 
-#The Problem
+# The Problem
 
 `Display a running list of the time (in UTC), best bid, best ask, and the last traded price on any pair on two different crypto exchanges.`
 
