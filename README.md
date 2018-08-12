@@ -36,7 +36,7 @@ If everything went as planned, once you navigate to `localhost:5000` you will se
 
 # The Problem
 
-`Display a running list of the time (in UTC), best bid, best ask, and the last traded price on any pair on two different crypto exchanges.`
+```Display a running list of the time (in UTC), best bid, best ask, and the last traded price on any pair on two different crypto exchanges.```
 
 The problem as I approached it was to listen to two different websocket streams and also update the information in real time on a basic web page. I created a base class ExchangeListener and extended a child class for each exchange. This is because each exchange has different requirements and it makes it easier to expand functionality and add additional exchanges.
 
