@@ -6,7 +6,7 @@ Clone the project.
 
 Setup a python3 virtual environment. This was developed against Python 3.7, but should be compatible back to 3.5.3.
 
-You will need python3, pip and virtualenv installed.
+You will need python3, pip and virtualenv installed. The following instructions are for MacOS. More details an other OS instructions can be found at: [Python Docs venv](https://docs.python.org/3/library/venv.html)
 
 Setup virtualenv
 
