@@ -1,0 +1,7 @@
+tbody tr:first-child th {
+    color: black;
+}
+
+tbody tr th {
+    color: grey;
+}

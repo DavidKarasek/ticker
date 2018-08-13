@@ -22,6 +22,7 @@ class ExchangeListener():
 
     def on_message(self, ws, message):
         print("--> {} message <--".format(self.exchange))
+        socketio.emit('tick', {'exchange':self.exchange, 'data': ticker, 'type': 'ticker'}, namespace='/ticker')
 
     def on_error(self, ws, error):
         print("--> {} Error! <--".format(self.exchange))
